@@ -1,0 +1,356 @@
+{
+  "nodes": [
+    {
+      "type": "command",
+      "name": "twitch",
+      "guid": "ee12bc97-c414-4520-8352-cba8414c8b12",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "62c30ffd-3c59-4b06-a182-d8d969d90f45"
+          ]
+        }
+      ],
+      "inputs": [],
+      "x": 52,
+      "y": 77
+    },
+    {
+      "type": "response",
+      "name": "twitchSendEmbed",
+      "guid": "62c30ffd-3c59-4b06-a182-d8d969d90f45",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "ee12bc97-c414-4520-8352-cba8414c8b12"
+        }
+      ],
+      "x": 52,
+      "y": 138,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "6441A5",
+        "Deni´s Twitch<:twitch:815212363572969482>",
+        "",
+        "",
+        "",
+        "",
+        "Mit dem Knopf unten kommst du zu **Deni´s twitch Kanal.**",
+        "",
+        "",
+        "Bot gemacht von Pantie Pepe#9999",
+        "BOOL_TRUE@@",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ],
+      "messageActionRows": [
+        {
+          "rowtype": "button",
+          "buttons": [
+            {
+              "label": "Twitch",
+              "customid": "twitch",
+              "style": "LINK",
+              "emoji": "<:twitch:815212363572969482>",
+              "URL": "https://www.twitch.tv/deni68_"
+            }
+          ]
+        }
+      ],
+      "valueFields": []
+    },
+    {
+      "type": "command",
+      "name": "instagram",
+      "guid": "aca2064d-25fb-4e63-a81b-662910420728",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "227abc5b-e8db-4bc1-866a-43c3037502ab"
+          ]
+        }
+      ],
+      "inputs": [],
+      "x": 276,
+      "y": 78
+    },
+    {
+      "type": "response",
+      "name": "instagramSendEmbed",
+      "guid": "227abc5b-e8db-4bc1-866a-43c3037502ab",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "aca2064d-25fb-4e63-a81b-662910420728"
+        }
+      ],
+      "x": 277,
+      "y": 141,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "3F729B",
+        "Deni´s Instagram<:instagram:815212363237163019>",
+        "",
+        "",
+        "",
+        "",
+        "Mit dem Knopf unten kommst du zu **Deni´s Instagram Kanal.**",
+        "",
+        "",
+        "Bot gemacht von Pantie Pepe#9999",
+        "BOOL_TRUE@@",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ],
+      "messageActionRows": [
+        {
+          "rowtype": "button",
+          "buttons": [
+            {
+              "label": "Instagram",
+              "customid": "insta",
+              "style": "LINK",
+              "emoji": "<:instagram:815212363237163019>",
+              "URL": "https://www.instagram.com/deni68__/"
+            }
+          ]
+        }
+      ],
+      "valueFields": []
+    },
+    {
+      "type": "command",
+      "name": "youtube",
+      "guid": "cabdf4d5-0074-493e-93ad-717a66fdc400",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "8ea0a14e-bc4f-4ad3-95e2-8eb065b58116"
+          ]
+        }
+      ],
+      "inputs": [],
+      "x": 504,
+      "y": 76
+    },
+    {
+      "type": "response",
+      "name": "youtubeSendEmbed",
+      "guid": "8ea0a14e-bc4f-4ad3-95e2-8eb065b58116",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "cabdf4d5-0074-493e-93ad-717a66fdc400"
+        }
+      ],
+      "x": 502,
+      "y": 137,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "FF0000",
+        "Deni´s Youtube<:youtube:815212363316723713>",
+        "",
+        "",
+        "",
+        "",
+        "Mit dem Knopf unten kommst du zu **Deni´s Youtube Kanal.**",
+        "",
+        "",
+        "Bot gemacht von Pantie Pepe#9999",
+        "BOOL_TRUE@@",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ],
+      "messageActionRows": [
+        {
+          "rowtype": "button",
+          "buttons": [
+            {
+              "label": "Youtube",
+              "customid": "yt",
+              "style": "LINK",
+              "emoji": "<:youtube:815212363316723713>",
+              "URL": "https://www.youtube.com/channel/UCnVpf0dqiU98vKmp4ud-7cw/featured"
+            }
+          ]
+        }
+      ],
+      "valueFields": []
+    },
+    {
+      "type": "command",
+      "name": "twitter",
+      "guid": "5fa4b8a3-6615-44e1-936f-96b5b40b53e4",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "e152885f-9a6b-4170-93ea-5dd5103e1a23"
+          ]
+        }
+      ],
+      "inputs": [],
+      "x": 733,
+      "y": 79
+    },
+    {
+      "type": "response",
+      "name": "twitterSendEmbed",
+      "guid": "e152885f-9a6b-4170-93ea-5dd5103e1a23",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "5fa4b8a3-6615-44e1-936f-96b5b40b53e4"
+        }
+      ],
+      "x": 735,
+      "y": 140,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "1DA1F2",
+        "Deni´s Twitter<:twitter:921854559314407485>",
+        "",
+        "",
+        "",
+        "",
+        "Mit dem Knopf unten kommst du zu **Deni´s Twitter Kanal.**",
+        "",
+        "",
+        "Bot gemacht von Pantie Pepe#9999",
+        "BOOL_TRUE@@",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ],
+      "messageActionRows": [
+        {
+          "rowtype": "button",
+          "buttons": [
+            {
+              "label": "Twitter",
+              "customid": "twitter",
+              "style": "LINK",
+              "emoji": "<:twitter:921854559314407485>",
+              "URL": "https://twitter.com/deni68_"
+            }
+          ]
+        }
+      ],
+      "valueFields": []
+    }
+  ]
+}
